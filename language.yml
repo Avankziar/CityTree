@@ -1,0 +1,5 @@
+german:
+  cmdcreatecityblock:
+    msg01: '&cDu hast nicht genug Platz in deinem Inventar!'
+    msg02: '&eDu hast den Stadt-Erschaffungsblock bekommen.'
+english:

@@ -1,0 +1,4530 @@
+german:
+  CITYTREE_TEST:
+    title: ''
+    inventory:
+      0:
+        name: '&e'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        enchantments:
+        - DURABILITY;1
+        secruity: ''
+        function:
+          left: ''
+          right: ''
+          shifleft: ''
+          shiftright: ''
+          drop: ''
+          guitype: ''
+          int: '0'
+          double: '0.0'
+      45:
+        name: '&eVorherige Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'PREVIOUSPAGE'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+          right: 'SWITCH'
+          guitype: ''
+      53:
+        name: '&eNächste Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'NEXTPAGE'
+german:
+  CITYTREE_MAIN:
+    title: '&6CityTree Hauptmenu'
+    inventory:
+      13:
+        name: '&eGlobale Städteliste'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eHier geht es zu globalen StädteListe
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_GLOBALLIST'
+      15:
+        name: '&eFreie Grundstücke'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eHier geht es zu Liste aller freien Grundstücke
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_GLOBALLIST'
+      30:
+        name: '&6Deine Städte'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eHier geht es zu der Liste deiner Städte
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_OWNLIST'
+      32:
+        name: '&6Deine Grundstücke'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eHier geht es zu der Liste deiner Grundstücke
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_OWNLIST'
+      40:
+        name: '&6Deine Distrikte'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eHier geht es zu der Liste deiner Distrikte
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_OWNLIST'
+      45:
+        name: '&6Vermessermodus'
+        material: 'MAP'
+        lore:
+        - §eSchalte den Vermessermodus an oder aus.
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADDSURVEYING'
+          guitype: 'PROPERTY_OWNLIST'
+      50:
+        name: '&6Stadt'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eZugang zu dem Stadtmenu,
+        - §ein welcher du gerade stehst.
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: ''DIRECTLOCATION'
+          guitype: 'CITY_MAIN'
+      51:
+        name: '&6Distrikt'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eZugang zu dem Distriktmenu,
+        - §ein welcher du gerade stehst.
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'DIRECTLOCATION'
+          guitype: 'DISTRICT_MAIN'
+      52:
+        name: '&6Grundstück'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eZugang zu dem Grundstückmenu,
+        - §ein welcher du gerade stehst.
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'DIRECTLOCATION'
+          guitype: 'PROPERTY_MAIN'
+      53:
+        name: '&6Grundstück'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §eZugang zu dem Grundstückmenu,
+        - §ein welcher du gerade stehst.
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'DIRECTLOCATION'
+          guitype: 'ZONE_MAIN'
+  CITY_GLOBALLIST:
+    title: 'Globale Städteliste Seite %page%'
+    inventory:
+      0:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      1:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      2:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      3:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      4:
+        function:
+          left: 'SWITCH'
+          right: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      5:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      6:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      7:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      8:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      9:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      10:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      11:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      12:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      13:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      14:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      15:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      16:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      17:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      18:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      19:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      20:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      21:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      22:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      23:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      24:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      25:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      26:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      27:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      28:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      29:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      30:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      31:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      32:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      33:
+        function:
+          left: 'SWITCH'
+          right: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      34:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      35:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      36:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      37:
+        function:
+          left: 'SWITCH'
+          right: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      38:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      39:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      40:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      41:
+        function:
+          left: 'SWITCH'
+          right: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      42:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      43:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      44:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      45:
+        name: '&eVorherige Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'PREVIOUSPAGE'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+      53:
+        name: '&eNächste Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'NEXTPAGE'
+  CITY_MAIN:
+    title: 'title is set in plugin'
+    inventory:
+      0:
+        name: '&eGeneral Info'
+        material: 'BOOK'
+        lore:
+        - §6Icon =
+        - §6ID =
+        - §6Name = 
+        - §6Creator = 
+        - §6Owner =
+        - §6CityLevel =
+        - §6Fläche = 
+        - §6Punkt 1 = 
+        - §6Punkt 2 =
+        - §6Gründungszeit =
+        - §6Aufsteigen = 
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+      1:
+        name: '&eTotale Kosten'
+        material: 'BOOK'
+        lore:
+        - totale kosten replacer
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+      2:
+        name: '&eListe aller Städte Erweiterungen'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_EXTENSIONHASLIST'
+      3:
+        name: '&eInfo Stockpile'
+        material: 'BOOK'
+        lore:
+        - stockpile replacer
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+      4:
+        name: '&eStadtnamen ändern'
+        material: 'BOOK'
+        lore:
+        - §bÄndere den Namen der Stadt im Chateditor
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'CHATEDITOR'
+      5:
+        name: '&eIcon ändern'
+        material: 'BOOK'
+        lore:
+        - §bÄndere das Icon der Stadt per Gui (Linksklick)
+        - §bÄndere das Icon der Stadt per Chateditor (Rechtsklick)
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          guitype: 'MATERIAL_LIST'
+      6:
+        name: '&eStadtaufstiegt'
+        material: 'BOOK'
+        lore:
+        - §bLässt deine Stadt auf die nächste
+        - §bStadtstufe aufsteigen. (Shift-Links/-Rechts)
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          shifleft: 'CITYLEVELRISE'
+      7:
+        name: '&eStadt Vergrößern'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Führt zum Gui der Stadtvergrößerung
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_BUYEXPANSION'
+      8:
+        name: '&eDistrikte kaufen'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_BUYDISTRICT'
+      9:
+        name: '&eGrundstücke kaufen'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_BUYPROPERTY'
+      10:
+        name: '&eTeleports kaufen'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_BUYTELEPORT'
+      11:
+        name: '&eStadt übergeben'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'CHATEDITOR'
+      12:
+        name: '&eStadt löschen'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'CHATEDITOR'
+      13:
+        name: '&eCoOwner Liste'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_COOWNERLIST'
+      14:
+        name: '&eDistrictlord Liste'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_DISTRICTLORDLIST'
+      15:
+        name: '&eTeleportliste'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_TELEPORTLIST'
+      16:
+        name: '&eMarktschreier Liste'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_BARKERLIST'
+      17:
+        name: '&eWerbung'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_ADVERTISMENTLIST'
+      18:
+        name: '&eDistrictliste'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_DISTRICTLIST'
+      19:
+        name: '&eGrundstücksliste'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier, left/right
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_PROPERTYLIST'
+      20:
+        name: '&eZurück'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §6Text hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+          right: 'SWITCH'
+          guitype: 'CITYTREE_MAIN'
+  CITY_OWNLIST:
+    title: '&eDeine Städte'
+    inventory:
+      0:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      1:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      2:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      3:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      4:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      5:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      6:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      7:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      8:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      9:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      10:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      11:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      12:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      13:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      14:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      15:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      16:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      17:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      18:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      19:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      20:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      21:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      22:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      23:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      24:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      25:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      26:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      27:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      28:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      29:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      30:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      31:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      32:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      33:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      34:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      35:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      36:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      37:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      38:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      39:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      40:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      41:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      42:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      43:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      44:
+        function:
+          left: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      45:
+        name: '&eVorherige Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'PREVIOUSPAGE'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+      53:
+        name: '&eNächste Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'NEXTPAGE'
+  CITY_BUYEXPANSION:
+    title: 'Stadt Flächen Erweiterung'
+    inventory:
+      0:
+        name: '&eVerringern um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-1'
+      9:
+        name: '&eVerringern um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-5'
+      18:
+        name: '&eVerringern um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-25'
+      27:
+        name: '&eVerringern um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-100'
+      36:
+        name: '&eVerringern um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-500'
+      45:
+        name: '&eVerringern um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-2500'
+      8:
+        name: '&eErhöhe um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '1'
+      17:
+        name: '&eErhöhe um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '5'
+      26:
+        name: '&eErhöhe um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '25'
+      35:
+        name: '&eErhöhe um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '100'
+      44:
+        name: '&eErhöhe um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '500'
+      53:
+        name: '&eErhöhe um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '2500'
+      22:
+        name: '&eAkzeptiere%'
+        material: 'EMERALD_BLOCK'
+        lore:
+        - stockpile replacer
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ACCEPT'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+  CITY_BUYDISTRICT:
+    title: 'District Slots kaufen'
+    inventory:
+      0:
+        name: '&eVerringern um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-1'
+      9:
+        name: '&eVerringern um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-5'
+      18:
+        name: '&eVerringern um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-25'
+      27:
+        name: '&eVerringern um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-100'
+      36:
+        name: '&eVerringern um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-500'
+      45:
+        name: '&eVerringern um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-2500'
+      8:
+        name: '&eErhöhe um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '1'
+      17:
+        name: '&eErhöhe um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '5'
+      26:
+        name: '&eErhöhe um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '25'
+      35:
+        name: '&eErhöhe um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '100'
+      44:
+        name: '&eErhöhe um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '500'
+      53:
+        name: '&eErhöhe um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '2500'
+      22:
+        name: '&eAkzeptiere%'
+        material: 'EMERALD_BLOCK'
+        lore:
+        - stockpile replacer
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ACCEPT'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+  CITY_BUYPROPERTY:
+    title: 'Grundstück Slots kaufen'
+    inventory:
+      0:
+        name: '&eVerringern um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-1'
+      9:
+        name: '&eVerringern um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-5'
+      18:
+        name: '&eVerringern um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-25'
+      27:
+        name: '&eVerringern um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-100'
+      36:
+        name: '&eVerringern um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-500'
+      45:
+        name: '&eVerringern um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-2500'
+      8:
+        name: '&eErhöhe um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '1'
+      17:
+        name: '&eErhöhe um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '5'
+      26:
+        name: '&eErhöhe um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '25'
+      35:
+        name: '&eErhöhe um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '100'
+      44:
+        name: '&eErhöhe um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '500'
+      53:
+        name: '&eErhöhe um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '2500'
+      22:
+        name: '&eAkzeptiere%'
+        material: 'EMERALD_BLOCK'
+        lore:
+        - stockpile replacer
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ACCEPT'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+  CITY_BUYTELEPORT:
+    title: 'Teleport Slots kaufen'
+    inventory:
+      0:
+        name: '&eVerringern um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-1'
+      9:
+        name: '&eVerringern um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-5'
+      18:
+        name: '&eVerringern um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-25'
+      27:
+        name: '&eVerringern um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-100'
+      36:
+        name: '&eVerringern um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-500'
+      45:
+        name: '&eVerringern um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-2500'
+      8:
+        name: '&eErhöhe um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '1'
+      17:
+        name: '&eErhöhe um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '5'
+      26:
+        name: '&eErhöhe um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '25'
+      35:
+        name: '&eErhöhe um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '100'
+      44:
+        name: '&eErhöhe um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '500'
+      53:
+        name: '&eErhöhe um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '2500'
+      22:
+        name: '&eAkzeptiere%'
+        material: 'EMERALD_BLOCK'
+        lore:
+        - stockpile replacer
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ACCEPT'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+  CITY_BUYADVERTISMENT:
+    title: 'Werbung Slots kaufen'
+    inventory:
+      0:
+        name: '&eVerringern um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-1'
+      9:
+        name: '&eVerringern um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-5'
+      18:
+        name: '&eVerringern um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-25'
+      27:
+        name: '&eVerringern um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-100'
+      36:
+        name: '&eVerringern um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-500'
+      45:
+        name: '&eVerringern um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'REMOVE_INTEGER'
+          int: '-2500'
+      8:
+        name: '&eErhöhe um 1'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '1'
+      17:
+        name: '&eErhöhe um 5'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '5'
+      26:
+        name: '&eErhöhe um 25'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '25'
+      35:
+        name: '&eErhöhe um 100'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '100'
+      44:
+        name: '&eErhöhe um 500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '500'
+      53:
+        name: '&eErhöhe um 2500'
+        material: 'STONE_BUTTON'
+        lore:
+        - §eText hier
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ADD_INTEGER'
+          int: '2500'
+      22:
+        name: '&eAkzeptiere%'
+        material: 'EMERALD_BLOCK'
+        lore:
+        - stockpile replacer
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'ACCEPT'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+  CITY_DISTRICTLIST:
+    title: 'Distriktliste der Stadt %id%'
+    inventory:
+      0:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      1:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      2:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      3:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      4:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      5:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      6:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      7:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      8:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      9:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      10:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      11:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      12:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      13:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      14:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      15:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      16:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      17:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      18:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      19:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      20:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      21:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      22:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      23:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      24:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      25:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      26:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      27:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      28:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      29:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      30:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      31:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      32:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      33:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      34:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      35:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      36:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      37:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      38:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      39:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      40:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      41:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      42:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      43:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      44:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%districtname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'DISTRICT_MAIN'
+      45:
+        name: '&eVorherige Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'PREVIOUSPAGE'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+          right: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      50:
+        name: '&eNeu hinzufügen'
+        material: 'ANVIL'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'ADD_NEW'
+      53:
+        name: '&eNächste Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'NEXTPAGE'
+  CITY_PROPERTYLIST:
+    title: 'Grundstückliste der Stadt %id%'
+    inventory:
+      0:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      1:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      2:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      3:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      4:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      5:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      6:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      7:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      8:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      9:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      10:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      11:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      12:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      13:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      14:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      15:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      16:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      17:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      18:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      19:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      20:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      21:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      22:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      23:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      24:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      25:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      26:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      27:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      28:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      29:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      30:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      31:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      32:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      33:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      34:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      35:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      36:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      37:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      38:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      39:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      40:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      41:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      42:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      43:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      44:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%propertyname%
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          guitype: 'PROPERTY_MAIN'
+      45:
+        name: '&eVorherige Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'PREVIOUSPAGE'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+          right: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      50:
+        name: '&eNeu hinzufügen'
+        material: 'ANVIL'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'ADD_NEW'
+      53:
+        name: '&eNächste Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'NEXTPAGE'
+  CITY_TELEPORTLIST:
+    title: 'Teleportliste der Stadt %id%'
+    inventory:
+      0:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      1:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      2:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      3:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      4:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      5:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      6:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      7:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      8:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      9:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      10:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      11:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      12:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      13:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      14:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      15:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      16:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      17:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      18:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      19:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      20:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      21:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      22:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      23:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      24:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      25:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      26:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      27:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      28:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      29:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      30:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      31:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      32:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      33:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      34:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      35:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      36:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      37:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      38:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      39:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      40:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      41:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      42:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      43:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      44:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%teleportname%
+        - §aLinks §f- §7Teleport
+        - §eShiftLinks §f- §7Location Ändern
+        - §eShiftRechts §f- §7Name Ändern
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'TELEPORT'
+          shiftleft: 'CHANGE_LOCATION'
+          shiftright: 'CHATEDITOR'
+          drop: 'DELETE'
+      45:
+        name: '&eVorherige Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'PREVIOUSPAGE'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+          right: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      50:
+        name: '&eNeu hinzufügen'
+        material: 'ANVIL'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'ADD_NEW'
+      53:
+        name: '&eNächste Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'NEXTPAGE'
+  CITY_BARKERLIST:
+    title: 'Marktschreier der Stadt %id%'
+    inventory:
+      0:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      1:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      2:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      3:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      4:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      5:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      6:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      7:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      8:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      9:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      10:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      11:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      12:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      13:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      14:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      15:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      16:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      17:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      18:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      19:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      20:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      21:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      22:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      23:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      24:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      25:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      26:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      27:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      28:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      29:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      30:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      31:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      32:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      33:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      34:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      35:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      36:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      37:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      38:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      39:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      40:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      41:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      42:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      43:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      44:
+        name: 'replaced from plugin'
+        material: 'DARK_OAK_DOOR'
+        lore:
+        - §e%barkername%
+        - §aLinks §f- §7Bezahlung anpassen
+        - §eShiftLinks §f- §7Anzahl Werbung anpassen
+        - §cDrop (Q) §f- §7Löschen
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'SWITCH'
+          right: 'CHATEDITOR'
+          drop: 'DELETE'
+          guitype: 'BARKER_SALARY'
+      45:
+        name: '&eVorherige Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'PREVIOUSPAGE'
+      49:
+        name: '&eZurück'
+        material: 'SPRUCE_SIGN'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'BACK'
+          right: 'SWITCH'
+          guitype: 'CITY_MAIN'
+      50:
+        name: '&eNeu hinzufügen'
+        material: 'ANVIL'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        secruity: 'OWNER'
+        function:
+          left: 'ADD_NEW'
+      53:
+        name: '&eNächste Seite'
+        material: 'ARROW'
+        itemflag:
+        - HIDE_ATTRIBUTES
+        - HIDE_POTION_EFFECTS
+        - HIDE_ENCHANTS
+        function:
+          left: 'NEXTPAGE'

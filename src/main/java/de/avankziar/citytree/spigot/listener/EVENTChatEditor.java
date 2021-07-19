@@ -1,5 +1,8 @@
 package main.java.de.avankziar.citytree.spigot.listener;
 
-public class EVENTChatEditor {
+import org.bukkit.event.Listener;
+
+public class EVENTChatEditor implements Listener
+{
 
 }

@@ -1,0 +1,193 @@
+language: 'english'
+server: 'spigotservername'
+mysql:
+  status: 'false'
+  host: '127.0.0.1'
+  port: '3306'
+  databaseName: 'mydatabase'
+  sslEnabled: 'false'
+  autoReconnect: 'true'
+  verifyServerCertificate: 'false'
+  user: 'admin'
+  password: 'not_0123456789'
+  tableName0: 'citytreePlayer'
+  tableNameI: 'citytreeCity'
+  tableNameII: 'citytreeDistrict'
+  tableNameIII: 'citytreeProperty'
+  tableNameIV: 'citytreeZone'
+  tableNameV: 'citytreeTeleport'
+  tableNameLogI: 'citytreeCityLog' #Was dem Stockpile hingezufügt wird und für ausgaben bezahlt wird.
+  tableNameLogII: 'citytreePropertyLog' #Was für die Miete oder dem Kauf von wem gezahlt wird.
+canCreateCitys: 'true'  #Ob man auf dem Server citys erstellen kann
+city:
+  maximumAmount: '-1' #-1 = unendlich, 0 = 0 etc.
+  tax: '0.1' #10% Steuern auf alle Propertyseinnahmen
+  basetaxperproperty: '5.0'
+  levelUp: 'STAFF' #ALWAYS, STAFF
+  item:
+    name: '&cCityCreateBlock'
+    material: 'BEDROCK'
+    lore:
+    - &cA block to create a city
+    itemflag:
+    - HIDE_ATTRIBUTES
+    - HIDE_DESTROYS
+    - HIDE_POTION_EFFECTS
+    - HIDE_ENCHANTS
+    - HIDE_UNBREAKABLE
+    enchantments:
+    - ARROW_DAMAGE;2
+    - ARROW_FIRE;1
+    - ARROW_INFINITE;1
+  levelsReplacer:
+    level0: 'Mansion'  #Basis level
+    level1: '&8Minivillage'
+    level2: '&7Smallvillage'
+    level3: '&fVillage'
+    level4: '&eTown'
+    level5: '&6City'  #Erweiterbar mit levelx: 'Blub'
+  levelCosts:
+    level0:    #Die kosten für einen Citycreate
+    - money;250.0
+    - exp;1000
+    - COBBLE_STONE;256.0
+    - DIRT;128.0
+    - DIAMOND;64.0
+    level1:
+    - money;1000.0
+    - COBBLE_STONE;1098
+    - extension;DISTRICTRIGHT
+    - extension;PROPERTIYRENT  #man braucht mindestens 2 Extension der stufe 0, um zu stufe 1 zu kommen
+    level2:
+    - money;1000.0
+    level3:
+    - money;1000.0
+    level4:
+    - money;1000.0
+    level5:
+    - money;1000.0
+  expansions:    #Stadtfläche Erweiterung
+    distanceBetweenCities: '100.0' #Mindestabstand an Blöcken zwischen zwei Städten, beim erstellen einer Stadt
+    createSetting:
+      x: '5.0'
+      y: '256.0'
+      z: '5.0'
+    edgeRatio: '2.0:1.0' #Kantenverhältnis
+    maximumarea:     #maximale Fläche in dieser Stadtstufe
+      level0: '100.0'
+      level1: '200.0'
+      level2: '300.0'
+      level3: '400.0'
+      level4: '1000.0'
+      level5: '-1.0' #-1.0 = unendlich
+    costPerBlock:
+      level0:
+      - money;1.0
+      - exp;1000
+      - COBBLE_STONE;1.0
+      level1:
+      - money;1.0
+      - COBBLE_STONE;1.0
+      level2:
+      - money;1.0
+      - COBBLE_STONE;1.0
+      level3:
+      - money;1.0
+      - COBBLE_STONE;1.0
+      level4:
+      - money;1.0
+      - COBBLE_STONE;1.0
+      level5:
+      - money;1.0
+      - COBBLE_STONE;1.0
+  availableextensions:   #StadtErweiterung
+    level0:
+    - DISTRICTRIGHT
+    - PROPERTIYRENT
+    - PROPERTYBUY
+    level1:
+    - PLAYERVERSUSENTITY
+    - PLAYERVERSUSPLAYER
+    level2:
+    - NOFALLDAMAGE
+    level3:
+    - NOEXPLOSIONDAMAGE
+    level4:
+    - NOFIREDAMAGE
+    level5:
+    - ANIMALPROTECTION
+  extensionsCosts:
+    ANIMALPROTECTION:
+    - money;1000.0
+    - exp;1000.0
+    - COBBLE_STONE;1098.0
+  extensionReplacer:
+    DISTRICTRIGHT: '&7Bezirksrecht'
+  teleports:
+    baseFreeValue: '1' #Wieviele Teleports bekommt die Stadt frei haus, wenn sie die Erweiterung kauft.
+    maximumAmount:
+      level0: '10'  #-1 = unendlich, 0 = 0 etc.
+      level1: '12'
+      level2: '14'
+      level3: '15'
+      level4: '20'
+      level5: '-1'
+    calculationType: 'LINEAR'    #NoChange, Linear, Formula | NoChange immer bspw. 1000.0 für einen weitern, Linear: x=n*baseMoneyValue, Formula: x=baseMoneyValue+valueOne^(n/valueTwo)
+    baseMoneyValue: '1000.0'
+    valueOne: '10.0'
+    valueTwo: '10.0'
+  districts:
+    baseFreeValue: '1'
+    minimalVolume: '15625.0'  #Die minimale Raumvolumen eines Grundstücks. bsp hier > 25*25*25
+    maximumAmount:
+      level0: '10'  #-1 = unendlich, 0 = 0 etc.
+      level1: '12'
+      level2: '14'
+      level3: '15'
+      level4: '20'
+      level5: '-1'
+    calculationType: 'LINEAR'    #NoChange, Linear, Formula | NoChange immer bspw. 1000.0 für einen weitern, Linear: x=n*baseMoneyValue, Formula: x=baseMoneyValue+valueOne^(n/valueTwo)
+    baseMoneyValue: '1000.0'
+    valueOne: '10.0'
+    valueTwo: '10.0'
+  properties:
+    rentalchargesmulti: '5.0'  #Wie oft man x mal Tagesmieten ins minus rutschen darf
+    terminationtime: '3' #Früherster Zeitpunkt, wann gekündiget werden kann, in tage
+    terminationvalue:
+    - 7;1.5 #Bis zum 7. Tag muss man 150 % zurückzahl
+    - 14;1.25
+    - 28;1.0
+    - 56;0.75
+    - 112;0.5
+    - 228;0.25
+    - 448;0.0
+    baseFreeValue: '1'
+    minimalVolume: '15625.0'  #Die minimale Raumvolumen eines Grundstücks. bsp hier > 25*25*25
+    maximumAmount:
+      level0: '10'  #-1 = unendlich, 0 = 0 etc.
+      level1: '12'
+      level2: '14'
+      level3: '15'
+      level4: '20'
+      level5: '-1'
+    calculationType: 'LINEAR'    #NoChange, Linear, Formula | NoChange immer bspw. 1000.0 für einen weitern, Linear: x=n*baseMoneyValue, Formula: x=baseMoneyValue+valueOne^(n/valueTwo)
+    baseMoneyValue: '1000.0'
+    valueOne: '10.0'
+    valueTwo: '10.0'
+    maximumlandlord: '4'
+    maximumroommate: '5'
+    maximumzone: '3'
+  advertisement:
+    baseFreeValue: '1'
+    barkermaximumamount: '100'
+    maximumAmount:
+      level0: '10'  #-1 = unendlich, 0 = 0 etc.
+      level1: '12'
+      level2: '14'
+      level3: '15'
+      level4: '20'
+      level5: '-1'
+    calculationType: 'LINEAR'    #NoChange, Linear, Formula | NoChange immer bspw. 1000.0 für einen weitern, Linear: x=n*baseMoneyValue, Formula: x=baseMoneyValue+valueOne^(n/valueTwo)
+    baseMoneyValue: '1000.0'
+    valueOne: '10.0'
+    valueTwo: '10.0'
